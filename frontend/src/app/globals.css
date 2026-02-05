@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.base-container{
+    @apply max-w-[1170px] border-x border-gray-200 mx-auto
+}

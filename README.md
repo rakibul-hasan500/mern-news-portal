@@ -85,6 +85,7 @@ npm run dev
 2️⃣ Frontend (User Panel)
 cd frontend
 npm install
+npm run build
 # Fill your environment variables in .env
 npm run dev
 

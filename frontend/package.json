@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "clear": "rm -rf .next && next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rm -rf node_modules .next package-lock.json"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "html-to-text": "^9.0.5",
+    "jose": "^6.1.3",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.3",
+    "next": "16.1.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-fast-marquee": "^1.6.5",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-multi-carousel": "^2.8.6",
+    "react-redux": "^9.2.0",
+    "react-share": "^5.2.2",
+    "react-spinners": "^0.17.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "tailwindcss": "^4"
+  }
+}
